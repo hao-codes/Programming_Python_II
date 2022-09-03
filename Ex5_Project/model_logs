@@ -1,0 +1,42 @@
+"""
+Author: Hao Zheng
+Matr.Nr.: K01608113
+Exercise 5
+"""
+
+###### Model Logs ######
+(Contains information of the models I used for the test files and uploaded on the challenge server)
+
+
+#############Scores Model 2022-07-10 18:50:14
+Training Loss : 0.00830728537403047 
+Validation Loss: 0.009812000411329791 
+Test Loss: 0.007357380917528644
+{'n_hidden_layers': 5, 'n_input_channels': 4, 'n_hidden_kernels': 64, 'kernel_size': 3}
+Number of Images used: 1000, validate_at = 200,  n updates: 2000, training batch size: 5
+Score on Server: 22.411
+
+#############Scores Model 2022-07-10 19:43:13
+Training Loss : 0.005490992329083383 
+Validation Loss: 0.005427379914413904 
+Test Loss: 0.0054209230153646785
+{'n_hidden_layers': 5, 'n_input_channels': 4, 'n_hidden_kernels': 64, 'kernel_size': 3}
+Number of Images used: 5000, validate_at = 1000,  n updates: 10000, training batch size: 6
+Score on Server: 18.362
+
+#############Scores Model 2022-07-13_12:13:01
+Training Loss : 0.005256727402237185 
+Validation Loss: 0.005105018850415945 
+Test Loss: 0.005267499936708191
+{'n_hidden_layers': 5, 'n_input_channels': 4, 'n_hidden_kernels': 64, 'kernel_size': 3}
+Number of Images used: 10000, validate_at = 1000,  n updates: 15000, training batch size: 32
+Score on Server: 20.274158
+
+
+#############Scores Model 2022-07-14_10:55:21
+Training Loss : 0.005069213846685193 
+Validation Loss: 0.005071735780171972 
+Test Loss: 0.00506195290548203
+{'n_hidden_layers': 6, 'n_input_channels': 4, 'n_hidden_kernels': 64, 'kernel_size': 3}
+Number of Images used: 15000, validate_at = 1000, n updates: 10000, training batch size: 32
+Score on Server: 17.894
